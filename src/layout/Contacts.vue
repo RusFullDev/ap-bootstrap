@@ -1,13 +1,14 @@
 <script setup>
-
+import Contact import '../pages/Contact.vue'
 </script>
 
 
 <template>
     <div>
+<Contact/>
 
-    </div>
     <router-view/>
+    </div>
 </template>
 
 
