@@ -6,7 +6,7 @@ import AboutClients from '/src/components/homeComponents/AboutClients.vue'
 </script>
 
 <template>
-    <div class="font-[Popins]">
+    <div>
 <Main/>
 <ViewOurProject/>
 <Feature/>

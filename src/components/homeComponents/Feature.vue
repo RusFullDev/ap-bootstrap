@@ -1,5 +1,5 @@
 <script setup>
-import Card from './Card.vue'
+
 import {features} from '/src/static/feature.js'
 </script>
 
