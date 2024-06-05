@@ -1,5 +1,4 @@
 <script setup>
-import Contact import '../pages/Contact.vue'
 </script>
 
 
