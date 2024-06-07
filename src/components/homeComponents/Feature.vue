@@ -1,6 +1,6 @@
 <script setup>
 
-import {features} from '/src/static/feature.js'
+import {features} from '../static/feature.js'
 </script>
 
 <template>

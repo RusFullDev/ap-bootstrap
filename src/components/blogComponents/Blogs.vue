@@ -44,14 +44,14 @@ const blog=[
 <template>
     <div class="container mb-[60px] md:mb-[128px]">
         <div class="text-[#282938] ">
-            <h2 class="text-5xl leading-[64px] font-semibold mb-12 text-center">Our Blog</h2>
+            <h2 class="text-4xl ms:text-5xl ms:leading-[64px] font-semibold mb-12 text-center">Our Blog</h2>
             <div class="grid lg:grid-cols-3 lg:gap-8 md:grid-cols-2 md:gap-4 gap-2">
                 <div class="mb-8" v-for="(item, index) in blog" :key="index">
                     <img class="mb-8 w-full" :src="item.img" alt="Our blogs image">
                     <p class="font-medium text-base leading-7 mb-2 md:mb-4">{{ item.data }}</p>
-                    <h3 class="text-xl md:text-2xl md:leading-9 font-normal mb-2 md:mb-4">{{ item.title }}</h3>
+                    <h3 class="text-lg md:text-2xl md:leading-9 font-normal mb-2 md:mb-4">{{ item.title }}</h3>
                     <p class="font-normal text-base leading-7 mb-3 md:mb-6">{{ item.info }}</p>
-                    <button class="font-medium text-lg hover:text-[#FCD980]">Read More &#8594;</button>
+                    <button class="font-medium text-base ms:text-lg hover:text-[#FCD980]">Read More &#8594;</button>
 
                      </div>
             </div>

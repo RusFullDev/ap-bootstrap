@@ -2,7 +2,7 @@
 
 <template>
     <div class="container">
-        <div class="grid lg:grid-cols-2 py-[60px] lg:py-[120px] text-center lg:text-start lg:items-center gap-4 lg:gap-10">
+        <div class="grid lg:grid-cols-2 py-8 sm:py-[60px] lg:py-[120px] text-center lg:text-start lg:items-center gap-4 lg:gap-10">
         <div class="text-[#282938]">
       <p class="text-lg font-normal leading-8 pb-2 hidden lg:block">About us</p>
       <h1 class="md:text-[54px] md:leading-[74px] text-2xl font-semibold pb-4 lg:pb-8">

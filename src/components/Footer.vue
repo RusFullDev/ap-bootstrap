@@ -1,6 +1,5 @@
 <script setup>
-import {reactive} from 'vue'
-const socials=reactive(['/img/facebook.png','/img/twitter.png','/img/instagram.png','/img/linked.png']);
+import {socials } from './static/socials.js'
 
 </script>
 
@@ -11,15 +10,15 @@ const socials=reactive(['/img/facebook.png','/img/twitter.png','/img/instagram.p
     <div class="container  py-[30px] md:py-[96px]">
         <div class="lg:grid lg:grid-cols-2 items-center gap-[260px]">
         <div>
-            <img src="/img/Logo.png" alt="" class="pb-4">
+           <router-link to="/home"><img src="/img/Logo.png" alt="" class="pb-4"></router-link> 
         <p class="text-[#F4F6FC] text:9xl sm:text-lg sm:w-[399px]">We are always open to discuss your project and improve your online presence.</p>
         </div>
 <div class="">
     <h3 class="text-white text-5xl leading-[64px] pb-4">Lets Talk!</h3>
     <p class="text-[#F4F6FC] text-lg pb-7 sm:w-[399px]">We are always open to discuss your project, improve your online presence and help with your UX/UI design challenges.</p>
     <div class="flex gap-7 pb-4 md:pb-4 lg:pb-0">
-        <div v-for="item,index in socials" :key="index" class="" >
-        <img :src="item" alt="" >
+        <div v-for="item,index in socials" :key="index">
+       <a :href="item.url"><img :src="item.icon" alt="socials" ></a> 
     </div>
     </div>
 </div>

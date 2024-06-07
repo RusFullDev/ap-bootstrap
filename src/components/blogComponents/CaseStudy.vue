@@ -4,7 +4,7 @@
 </script>
 
 <template>
-    <div class="container my-[60px] lg:my-[128px]"> 
+    <div class="container my-10 lg:my-[100px]"> 
 <div class="text-[#282938] text-center">
     <h1 class="text-2xl sm:text-3xl md:text-5xl font-semibold md:leading-[64px] lg:w-[949px] mx-auto mb-3">A UX Case Study on Creating a Studious Environment for Students</h1>
     <p class="font-medium text-sm sm:text-base sm:leading-7 mb-4 sm:mb-8">Andrew Jonson Posted on 27th January 2021</p>

@@ -1,36 +1,17 @@
 <script setup>
-const team = [
-    {
-    img:'/img/John.png',
-    name:'John Smith',
-    level:'CEO',
-    hover:'/img/hover.png',
-   
-},
-{
-    img:'/img/Simon.png',
-    name:'Simon Adams',
-    level:'CTO',
-    hover:'/img/hover.png',
- 
+const socials=
+[
+    {icon:'/img/facebook.png',url:'https://www.facebook.com'
 
+       },
+    {icon:'/img/twitter.png',url:'https://x.com'
 
 },
-{
-    img:'/img/Paul.png',
-    name:'Paul Jones',
-    level:'Design Lead',
-    hover:'/img/hover.png',
-   
-},
-{
-    img:'/img/Sara.png',
-    name:'Sara Hardin',
-    level:'Project Manager',
-    hover:'/img/hover.png',
  
-}   
-]
+    {icon:'/img/linked.png',url:'https://www.linkedin.com'
+}
+];
+import {team} from '../static/teams.js'
 </script>
 
 <template>
@@ -38,16 +19,16 @@ const team = [
         <div class="container">
        <h3 class="text-[#282938] text-2xl sm:text-5xl sm:leading-[64px] font-semibold text-center pt-10 md:pt-[128px] pb-5 md:pb-[48px]">Meet our team</h3>
 
-    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 text-center pb-[128px]">
+    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 text-center pb-12 sm:pb-[128px]">
         <div v-for="item,index in team " :key="index">
             <div class="shadow-md bg-white relative group">
 <div class="flex justify-center px-[64px] pt-[48px] pb-[30px] ">
     <img :src="item.img" alt="images">
-    <img class=" group-hover:opacity-100 opacity-0 duration-300 pz-[10] absolute  px-[64px] pb-[30px]" src="/img/hover.png" alt=""> 
+    <img class=" group-hover:opacity-100 opacity-0 duration-300 pz-[10] absolute  px-[64px] pb-[30px]" src="/img/hover.png" alt="hover"> 
 <div class="group-hover:opacity-100 opacity-0 duration-300 flex absolute top-1/2 justify-center items-center gap-3 z-[20]">
-    <img src="/img/facebook.png" alt="">
-    <img src="/img/twitter.png" alt="">
-    <img src="/img/linked.png" alt="">
+    <div v-for="item,index in socials" :key="index">
+       <a :href="item.url"><img :src="item.icon" alt="socials" ></a> 
+    </div>
         </div>
 </div>
 

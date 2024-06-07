@@ -38,15 +38,7 @@ const routes = [
                component: () => import('../pages/Contact.vue')
            }
         ]
-    },
-    {
-        path: '/contacts',
-        name: 'contacts',
-        component: () => import('../layout/Contacts.vue'),
-        children: [
-           
-        ]
-    }
+    },  
 ];
 
 const router = createRouter({
