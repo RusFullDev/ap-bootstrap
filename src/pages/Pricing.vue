@@ -1,10 +1,13 @@
 <script setup>
+import PricingPlans from '../components/pricingComponents/PricingPlans.vue'
+import FriquentlyQuestion from '../components/pricingComponents/FriquentlyQuestion.vue';
 
 </script>
 
 <template>
     <div>
-<h1>Pricing</h1>
+        <PricingPlans/>
+        <FriquentlyQuestion/>
     </div>
 </template>
 

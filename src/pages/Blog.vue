@@ -1,10 +1,12 @@
 <script setup>
-
+import Blogs from '../components/blogComponents/Blogs.vue';
+import CaseStudy from '../components/blogComponents/CaseStudy.vue'
 </script>
 
 <template>
     <div>
-<h1>Blog</h1>
+<CaseStudy/>
+<Blogs/>
     </div>
 </template>
 
