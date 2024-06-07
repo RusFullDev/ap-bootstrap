@@ -11,10 +11,10 @@ import Menu from './Menu.vue'
       >
        
           <img class="" src="/img/Logo.png" alt="Logo" />
-          <div class="flex justify-end w-full h-10 ">
+          <!-- <div class="flex justify-end w-full h-10 ">
             <img class="sm:hidden" src="/img/menu.png" alt="menu" />
-         <!-- <Menu/> -->
-        </div>
+         <Menu/> -->
+        <!-- </div> --> 
 
         <div class="hidden sm:block">
           <div class="flex gap-10 text-[#BBBBCB] place-items-center">
