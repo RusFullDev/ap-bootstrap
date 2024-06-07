@@ -54,7 +54,7 @@ export default {
         <div class="flex lg:gap-2 justify-end absolute bottom-0 right-0 lg:right-5 z-30">
               <button
                 @click="goToPrevSlide"
-                class="rounded-full border-none  py-5 px-3 md:hover:bg-[#5239FA]"
+                class="rounded-full border-none  py-5 px-5 md:hover:bg-[#5239FA]"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -75,7 +75,7 @@ export default {
               </button>
               <button
                 @click="goToNextSlide"
-                class="rounded-full border-none  py-5 px-3 md:hover:bg-[#5239FA]"
+                class="rounded-full border-none  py-5 px-5 md:hover:bg-[#5239FA]"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

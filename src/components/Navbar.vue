@@ -88,19 +88,19 @@ function handleMenuClick(route) {
         <!-- Desktop Menu -->
         <div class="hidden sm:block">
           <div class="flex gap-10 text-[#BBBBCB] place-items-center">
-            <router-link to="/home" class="[&.router-link-active]:text-white"
+            <router-link to="/home" class="[&.router-link-active]:text-white hover:border-b-2 hover:border-b-white"
               >Home</router-link
             >
-            <router-link to="/about" class="[&.router-link-active]:text-white"
+            <router-link to="/about" class="[&.router-link-active]:text-white hover:border-b-2 hover:border-b-white"
               >About</router-link
             >
-            <router-link to="/pricing" class="[&.router-link-active]:text-white"
+            <router-link to="/pricing" class="[&.router-link-active]:text-white hover:border-b-2 hover:border-b-white"
               >Pricing</router-link
             >
-            <router-link to="/work" class="[&.router-link-active]:text-white"
+            <router-link to="/work" class="[&.router-link-active]:text-white hover:border-b-2 hover:border-b-white"
               >Work</router-link
             >
-            <router-link to="/blog" class="[&.router-link-active]:text-white"
+            <router-link to="/blog" class="[&.router-link-active]:text-white hover:border-b-2 hover:border-b-white"
               >Blog</router-link
             >
             <router-link

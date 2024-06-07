@@ -28,7 +28,7 @@ function filterTemplates(category) {
         </div>
         <div class="grid sm:grid-cols-2 gap-5 sm:gap-9 text-[#282938]">
             <div v-for="(item, index) in templates" :key="index" class="my-3">
-                <img class="mb-6" :src="item.img" alt="Template images">
+                <img class="mb-6 w-full" :src="item.img" alt="Template images">
                 <h3 class="mb-2 sm:mb-3 text-2xl sm:text-[38px] sm:leading-[56px] font-semibold">{{ item.title }}</h3>
                 <p class="mb-4 sm:mb-6 font-normal text-base leading-7">{{ item.info }}</p>
                 <button class="font-medium text-sm sm:text-lg hover:text-[#FCD980]">

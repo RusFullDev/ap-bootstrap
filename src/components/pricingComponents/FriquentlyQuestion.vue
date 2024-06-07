@@ -47,7 +47,7 @@ const toggle = (index) => {
       <p class="text-[#2405F2] text-lg leading-8 font-normal">Contact us For More Info</p>
     </div>
     <div class="lg:col-span-2">
-      <div v-for="(item, index) in questions" :key="index" class="border-t border-b border-gray-200">
+      <div v-for="(item, index) in questions" :key="index" class="border-t border-b">
         <h2 :id="'accordion-collapse-heading-' + index">
           <button
             type="button"
@@ -68,7 +68,7 @@ const toggle = (index) => {
         </h2>
         <div
           :id="'accordion-collapse-body-' + index"
-          class="transition-max-height duration-300 ease-in-out overflow-hidden  bg-gray-100"
+          class="transition-max-height duration-300 ease-in-out overflow-hidden "
           :class="item.open ? 'max-h-[400px]' : 'max-h-0'"
         >
             <p class="mb-2 font-medium text-[#282938] text-xs sm:text-lg sm:leading-8 p-4">{{ item.answer }}</p>
